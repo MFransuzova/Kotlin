@@ -1,0 +1,5 @@
+arrayOf("Blue", "Green", "Yellow", "Gray").
+ filter { it.startsWith("G") }.
+ forEach { item ->
+ println(item)
+ }
