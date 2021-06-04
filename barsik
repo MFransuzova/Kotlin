@@ -1,0 +1,30 @@
+/**
+ * You can edit, run, and share this code. 
+ * play.kotlinlang.org 
+ */
+class Cat(val name: String, var weight: Int, val breed: String) {
+    fun sleep() {
+        println(if (weight < 3) "сопит!" else "храпит!")
+    }
+}
+
+class days() {
+    fun mon() {
+        println("Понедельник")
+    }
+    fun tue() {
+        println("Вторник")
+    }
+}
+
+var barsik = Cat("Барсик", 2, "Сибирская")
+var day_w  = days()
+
+fun main() {
+  println(barsik.name)
+  println(barsik.weight)
+  println(barsik.breed)
+  barsik.sleep() 
+  day_w.tue()
+
+}
